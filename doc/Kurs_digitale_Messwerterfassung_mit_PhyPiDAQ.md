@@ -144,7 +144,8 @@ Wenn der Raspberry Pi gestartet ist, können wir uns vom Laptop (oder einem ande
 
 - Dazu öffnen zuerst über das **Ordnersymbol** oben links das Verzeichnis **PhyPi** und erstellen in diesem ein Verzeichnis **MeineProgramme**, in dem wir unsere Programme speichern. 
 
-- Über die **Himbeere** (oben links) und den Reiter **Entwicklung** öffnen wir das Programm **Python 3 (IDLE)**.
+- Über die **Himbeere** (oben links) und den Reiter **Entwicklung** öffnen wir das Programm **Python 3 (IDLE)** bzw. **Thonny Phython IDE**.
+
 
 - Jetzt müssen wir uns noch über **File** und **New File** eine Datei für unser erstes Programm erzeugen.
 
@@ -247,8 +248,8 @@ Jeder kennt bei neueren Autos die Lichtautomatik, die das Licht automatisch ansc
 
 ![](images/course/ldr_digital.PNG)  
 
-<span style="color:#5882FA; font-size: 12pt ">2. </span>Öffnen Sie wieder das Programm **Python 3 (IDLE)** und die zuvor erstellte Programmdatei **digital.py** im Verzeichnis **MeineProgramme**. Starten Sie nun mit **Run** oder `F5` das zuvor erstellte Programm.
-Dunkeln Sie den Fotowiderstand (LDR) mit der Hand ab. Wechseln Sie mehrfach zwischen abgedunkteltem und hellem Zustand ab und notieren Sie Ihre Beobachtungen. Mit `Strg + C` können Sie das Programm wieder beenden.
+<span style="color:#5882FA; font-size: 12pt ">2. </span>Öffnen Sie wieder das Programm **Python 3 (IDLE)** bzw. **Thonny Phython IDE** und die zuvor erstellte Programmdatei **digital.py** im Verzeichnis **MeineProgramme**. Starten Sie nun mit **Run** oder `F5` das zuvor erstellte Programm.
+Dunkeln Sie den Fotowiderstand (LDR) mit der Hand ab. Wechseln Sie mehrfach zwischen abgedunkteltem und hell em Zustand ab und notieren Sie Ihre Beobachtungen. Mit `Strg + C` können Sie das Programm wieder beenden.
 
 
 &nbsp;
@@ -383,7 +384,7 @@ Welchen Zustand besitzt der GPIO-Pin 17 in diesem Fall? Begründen Sie.
 
 <span style="color:#5882FA; font-size: 12pt ">6. </span>Jetzt müssen wir nur noch unser Programm anpassen, sodass die LED abhängig vom Zustand des GPIO-Pins 17 an- bzw. ausgeschaltet wird.
 
-- Wir öffnen wieder das Programm **Python 3 IDLE** und erzeugen dort eine Datei **lichtautomatik.py** für unser neues Programm, die wir im Verzeichnis **MeineProgramme** speichern.
+- Wir öffnen wieder das Programm **Python 3 IDLE** bzw. **Thonny Phython IDE** und erzeugen dort eine Datei **lichtautomatik.py** für unser neues Programm, die wir im Verzeichnis **MeineProgramme** speichern.
 
 - In diese Datei schreiben wir unseren Programmcode für die Lichtautomatik:
 
@@ -507,6 +508,8 @@ Mit der entworfenen Schaltung haben wir nun die Grundlage für unser Thermometer
 
 ![](images/course/breadboard_ntc.PNG)
 
+!!!Achtung: Schaltplan für NTC unvollständig, Spannungsteiler und NTC-Widerstand muss mit +/-5V verbunden sein!!!
+
 <span style="color:#5882FA; font-size: 12pt ">2. </span>Bauen Sie die Schaltung auf dem Breadboard auf. Aus der nachfolgenden Tabelle kann entnommen werden, wie der AD-Wandler auf dem Breadboard anzuschließen ist.
 
 | Anschlüsse AD-Wandler ADS1115 | Anschlüsse Breadboard / GPIO-Pin                           |
@@ -519,7 +522,7 @@ Mit der entworfenen Schaltung haben wir nun die Grundlage für unser Thermometer
 
 <span style="color:#5882FA; font-size: 12pt ">3. </span>Nun haben wir unsere Schaltung für das digitale Thermometer aufgebaut und können uns um ein Programm zur Auswertung kümmern:
 
-- Dazu öffnen wir wieder das Programm **Python 3 (IDLE)** und erstellen eine Programmdatei **thermometer.py**.
+- Dazu öffnen wir wieder das Programm **Python 3 (IDLE)** bzw. **Thonny Phython IDE** und erstellen eine Programmdatei **thermometer.py**.
 
 - Nun können wir unseren Programmcode zur Auswertung erstellen:
 
